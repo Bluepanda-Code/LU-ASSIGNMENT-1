@@ -1,0 +1,14 @@
+# starting range number is 10
+start = int(10)
+
+# ending range number is 150
+end= int(150)
+
+# initialise counter with starting number
+cnt = start
+while cnt <= end:
+	
+	# if number divisible by 15 and multiple of 5
+	if cnt % 15 == 0 and cnt % 5 == 0:
+		print(cnt, " is divisible by 7 and multiple of 5")
+  	cnt += 1
